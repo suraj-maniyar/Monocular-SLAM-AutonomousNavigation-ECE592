@@ -1,2 +1,0 @@
-export ROS_NAMESPACE=stereo_camera
-roslaunch zed_wrapper zed_camera.launch

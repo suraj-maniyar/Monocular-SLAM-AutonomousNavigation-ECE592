@@ -1,3 +1,0 @@
-zed_camera.launch location is home/nvidia/catkin_ws/src/zed-ros-wrapper/launch
-rtabmap.launch location is /opt/ros/kinetic/share/rtabmap_ros/launch
-
