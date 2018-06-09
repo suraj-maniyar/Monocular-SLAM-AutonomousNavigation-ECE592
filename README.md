@@ -1,4 +1,4 @@
 ECE592 - Autonomous navigation
-##more description to follow
-# ece592sp18-AutonomousNavigation
-# ece592sp18-AutonomousNavigation
+
+VINS-Monocular SLAM
+The code in this repository has been adapted from https://github.com/HKUST-Aerial-Robotics/VINS-Mono.
