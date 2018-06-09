@@ -2,4 +2,11 @@ build
 devel
 src/slam_a/Final_Demo/catkin_ws5/devel
 src/slam_a/Final_Demo/catkin_ws5/build
-
+src/blimp_indoor
+src/blimp_outdoor
+src/ctx_a
+src/ctx_b
+src/ctx_c
+src/husky_hardware
+src/slam_b
+src/utils
