@@ -1,0 +1,19 @@
+<launch>
+  <arg name="laser_enabled" default="$(optenv HUSKY_LMS1XX_ENABLED true)"/>
+  <arg name="ur5_enabled" default="$(optenv HUSKY_UR5_ENABLED false)"/>
+  <arg name="kinect_enabled" default="false"/>
+
+  <param name="robot_description" command="$(find xacro)/xacro.py '$(env HUSKY_DESCRIPTION)'     laser_enabled:=$(arg laser_enabled)     ur5_enabled:=$(arg ur5_enabled)     kinect_enabled:=$(arg kinect_enabled)     "/>
+
+  <!-- send fake joint values -->
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <param name="use_gui" value="TRUE"/>
+  </node>
+
+  <!-- Combine joint values -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher"/>
+
+  <!-- Show in Rviz   -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find husky_description_modified)/launch/robot.rviz"/>
+
+</launch>

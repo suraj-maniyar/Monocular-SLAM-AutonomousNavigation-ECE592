@@ -1,0 +1,8 @@
+<launch>
+	<group name="wg">
+		<include file="$(find raspicam_node)/launch/camerav2_410x308_30fps.launch" />
+		<include file="$(find bosch_imu_driver)/launch/imu.launch" />
+	        <include file="$(find blimp_control)/launch/blimp.launch" />
+		 <include file="$(find blimp_control)/launch/blimp.launch" />
+	</group>
+</launch>

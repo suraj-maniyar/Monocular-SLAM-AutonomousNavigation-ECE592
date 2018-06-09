@@ -1,0 +1,37 @@
+Packages
+1. Sample image publisher
+Sample node to publish images from a monocular camera. Use `rosrun image_publisher image_publisher` to run the node
+This ros node publishes the following ros topics - 
+```
+/camera/image
+/camera/image/compressed
+/camera/image/compressed/parameter_descriptions
+```
+The message type is `sensor_msgs/Image`
+
+2. Object detector
+This node detects the objects and returns the bounding box. 
+Use `roslaunch darknet_ros darknet_ros.launch` to launch the node.
+The bounding box topic comprises of
+```
+class
+probability
+xmin
+xmax
+ymin
+ymax
+```
+The types are - 
+```
+BoundingBox[] boundingBoxes
+string Class
+float64 probability
+int64 xmin
+int64 ymin
+int64 xmax
+int64 ymax
+```
+3. Semantic segmentation
+Subscribes to the compressed image published by outdoor blimp
+Publishes the segmented image. 
+

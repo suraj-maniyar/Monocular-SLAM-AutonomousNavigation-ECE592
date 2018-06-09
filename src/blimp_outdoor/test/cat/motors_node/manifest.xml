@@ -1,0 +1,16 @@
+<package>
+  <description brief="motors_node">
+
+     motors_node
+
+  </description>
+  <author>Ubuntu User</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/motors_node</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+
+</package>
+
+

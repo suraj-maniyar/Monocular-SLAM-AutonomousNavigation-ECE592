@@ -1,0 +1,44 @@
+- tar:
+    local-name: husky/husky_control
+    uri: https://github.com/clearpath-gbp/husky-release/archive/release/indigo/husky_control/0.2.7-0.tar.gz
+    version: husky-release-release-indigo-husky_control-0.2.7-0
+- tar:
+    local-name: husky/husky_description
+    uri: https://github.com/clearpath-gbp/husky-release/archive/release/indigo/husky_description/0.2.7-0.tar.gz
+    version: husky-release-release-indigo-husky_description-0.2.7-0
+- tar:
+    local-name: husky/husky_msgs
+    uri: https://github.com/clearpath-gbp/husky-release/archive/release/indigo/husky_msgs/0.2.7-0.tar.gz
+    version: husky-release-release-indigo-husky_msgs-0.2.7-0
+- tar:
+    local-name: husky_desktop/husky_desktop
+    uri: https://github.com/clearpath-gbp/husky_desktop-release/archive/release/indigo/husky_desktop/0.2.2-0.tar.gz
+    version: husky_desktop-release-release-indigo-husky_desktop-0.2.2-0
+- tar:
+    local-name: husky_desktop/husky_viz
+    uri: https://github.com/clearpath-gbp/husky_desktop-release/archive/release/indigo/husky_viz/0.2.2-0.tar.gz
+    version: husky_desktop-release-release-indigo-husky_viz-0.2.2-0
+- tar:
+    local-name: husky_simulator/husky_gazebo
+    uri: https://github.com/clearpath-gbp/husky_simulator-release/archive/release/indigo/husky_gazebo/0.2.5-0.tar.gz
+    version: husky_simulator-release-release-indigo-husky_gazebo-0.2.5-0
+- tar:
+    local-name: husky_simulator/husky_simulator
+    uri: https://github.com/clearpath-gbp/husky_simulator-release/archive/release/indigo/husky_simulator/0.2.5-0.tar.gz
+    version: husky_simulator-release-release-indigo-husky_simulator-0.2.5-0
+- tar:
+    local-name: universal_robot/ur_description
+    uri: https://github.com/ros-industrial-release/universal_robot-release/archive/release/indigo/ur_description/1.1.6-0.tar.gz
+    version: universal_robot-release-release-indigo-ur_description-1.1.6-0
+- tar:
+    local-name: universal_robot/ur_description
+    uri: https://github.com/ros-industrial-release/universal_robot-release/archive/release/indigo/ur_description/1.1.6-0.tar.gz
+    version: universal_robot-release-release-indigo-ur_description-1.1.6-0
+- tar:
+    local-name: interactive_marker_twist_server
+    uri: https://github.com/ros-gbp/interactive_marker_twist_server-release/archive/release/jade/interactive_marker_twist_server/1.0.0-0.tar.gz
+    version: interactive_marker_twist_server-release-release-jade-interactive_marker_twist_server-1.0.0-0
+- tar:
+    local-name: husky/husky_navigation
+    uri: https://github.com/clearpath-gbp/husky-release/archive/release/indigo/husky_navigation/0.2.7-0.tar.gz
+    version: husky-release-release-indigo-husky_navigation-0.2.7-0

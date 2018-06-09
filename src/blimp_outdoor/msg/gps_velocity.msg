@@ -1,0 +1,2 @@
+float32 true_heading
+float32 velocity_m_s
